@@ -6,7 +6,6 @@ import { HttpService } from './http.service';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
@@ -15,7 +14,7 @@ import { ListComponent } from './list/list.component';
 
 @NgModule({
   imports:      [ AppRoutingModule, BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HomeComponent, ListComponent, ContactComponent, HeaderComponent, FooterComponent, ContentComponent ],
+  declarations: [ AppComponent, HomeComponent, ListComponent, HeaderComponent, FooterComponent, ContentComponent ],
   bootstrap:    [ AppComponent ],
   providers: [HttpService]
 })
