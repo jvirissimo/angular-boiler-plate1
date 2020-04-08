@@ -12,10 +12,11 @@ import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { WidgetsComponent } from './widgets/widgets.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   imports:      [ AppRoutingModule, BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HomeComponent, ListComponent, HeaderComponent, FooterComponent, ContentComponent, WidgetsComponent ],
+  declarations: [ AppComponent, HomeComponent, ListComponent, HeaderComponent, FooterComponent, ContentComponent, WidgetsComponent, SidebarComponent ],
   bootstrap:    [ AppComponent ],
   providers: [HttpService]
 })
