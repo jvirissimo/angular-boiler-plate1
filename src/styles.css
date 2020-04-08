@@ -5,26 +5,3 @@
 body{
   font-family: Roboto;
 }
-
-header{
-  background: gold;
-  padding: 8px;
-}
-
-nav{
-  float: right;
-}
-
-nav ul{
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-}
-
-nav ul li a{
-  padding: 1em;
-}
-
-.container{
-
-}
