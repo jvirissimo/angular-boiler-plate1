@@ -14,12 +14,12 @@ import { ListComponent } from './list/list.component';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { LoginComponent } from './login/login.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+// import { DashboardComponent } from './dashboard/dashboard.component';
 import { UiComponent } from './ui/ui.component';
 
 @NgModule({
   imports:      [ AppRoutingModule, BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HomeComponent, ListComponent, HeaderComponent, FooterComponent, ContentComponent, WidgetsComponent, SidebarComponent, LoginComponent, DashboardComponent, UiComponent ],
+  declarations: [ AppComponent, HomeComponent, ListComponent, HeaderComponent, FooterComponent, ContentComponent, WidgetsComponent, SidebarComponent, LoginComponent, UiComponent ],
   bootstrap:    [ AppComponent ],
   providers: [HttpService]
 })
