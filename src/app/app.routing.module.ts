@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'ui', component: UiComponent },
   { path: 'home', component: HomeComponent },
   { path: 'list', component: ListComponent },
-  { path: 'widgets', component: WidgetsComponent },
+  { path: 'widgets', component: WidgetsComponent, outlet: 'data' },
   { path: 'content', component: ContentComponent },
 ];
 
