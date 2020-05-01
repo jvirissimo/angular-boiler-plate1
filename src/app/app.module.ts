@@ -6,24 +6,16 @@ import { HttpService } from './http.service';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './layout/header/header.component';
-import { FooterComponent } from './layout/footer/footer.component';
-import { FooterLayoutComponent } from './layout/footer-layout/footer-layout.component';
-import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
-import { ContentComponent } from './content/content.component';
-import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { WidgetsComponent } from './widgets/widgets.component';
-import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { LoginComponent } from './login/login.component';
 // import { DashboardComponent } from './dashboard/dashboard.component';
-import { UiComponent } from './ui/ui.component';
 import { LayoutComponent } from './layout/layout.component';
 
 
 @NgModule({
   imports:      [ AppRoutingModule, BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HomeComponent, ListComponent, HeaderComponent, FooterComponent, ContentComponent, WidgetsComponent, SidebarComponent, LoginComponent, UiComponent, LayoutComponent, FooterLayoutComponent, MainLayoutComponent ],
+  declarations: [ AppComponent, ListComponent, WidgetsComponent, LoginComponent, LayoutComponent ],
   bootstrap:    [ AppComponent ],
   providers: [HttpService]
 })
