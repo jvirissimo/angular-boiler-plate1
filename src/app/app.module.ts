@@ -6,7 +6,7 @@ import { HttpService } from './http.service';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
@@ -16,10 +16,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { LoginComponent } from './login/login.component';
 // import { DashboardComponent } from './dashboard/dashboard.component';
 import { UiComponent } from './ui/ui.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   imports:      [ AppRoutingModule, BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HomeComponent, ListComponent, HeaderComponent, FooterComponent, ContentComponent, WidgetsComponent, SidebarComponent, LoginComponent, UiComponent ],
+  declarations: [ AppComponent, HomeComponent, ListComponent, HeaderComponent, FooterComponent, ContentComponent, WidgetsComponent, SidebarComponent, LoginComponent, UiComponent, LayoutComponent ],
   bootstrap:    [ AppComponent ],
   providers: [HttpService]
 })
