@@ -12,7 +12,7 @@ import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { WidgetsComponent } from './widgets/widgets.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { LoginComponent } from './login/login.component';
 // import { DashboardComponent } from './dashboard/dashboard.component';
 import { UiComponent } from './ui/ui.component';
