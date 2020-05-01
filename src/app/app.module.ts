@@ -7,7 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './layout/footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
